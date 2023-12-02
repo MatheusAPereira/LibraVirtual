@@ -1,0 +1,59 @@
+@charset "UTF-8";
+body {
+ font-family: Arial, sans-serif;
+}
+
+.livro {
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 20px;
+}
+
+.capa {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.imagem_livro {
+ width: 200px;
+ height: 300px;
+ object-fit: cover;
+}
+
+.info_livro {
+ padding-left: 20px;
+}
+
+.info_livro p {
+ margin: 0;
+}
+
+.perfil {
+  text-align: center;
+}
+
+.botao {
+  text-align: center;
+}
+
+
+.avaliacao {
+  margin-top: 10px;
+}
+
+.estrelas {
+  color: yellow;
+}
+
+.descricao {
+  font-weight: bold;
+}
+
+.comentario{
+	text-align: center;
+}
+
+.spoiler{
+	text-align: center;
+}

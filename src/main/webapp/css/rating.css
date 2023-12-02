@@ -1,0 +1,50 @@
+#rating {
+    display: flex;
+    position: relative;
+    margin-left: 20px;
+}
+
+#rating-text{
+    margin-left: 20px;
+}
+
+#rating > span {
+    font-size: 18px;
+}
+
+#rating #stars > span.bi-star-fill, span.bi-star-half {
+    color: #fecc00;
+}
+
+#rating-text {
+    font-size: 7px;
+}
+
+#stars {
+    display: flex;
+}
+
+span.bi.dark-mode {
+    color: white;
+}
+
+#rating-text.dark-mode{
+    color: white;
+}
+
+#guides {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#guides > div {
+    width: 8px;
+    height: 20px;
+    color: aqua;
+}
+
+#guides > div:nth-child(2n) {
+    /*margin-right: 4.45px;*/
+}
